@@ -1,0 +1,13 @@
+.section {
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1336px;
+}
+
+.wrapper_hero {
+  color: red;
+}

@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 98px;
+  padding-bottom: 98px;
+
+  &_header {
+    padding: 0;
+  }
+
+  &_hero {
+    padding: 0;
+  }
+
+  &_what {
+    background-color: $color-decoration;
+    display: block;
+    margin: 0 auto;
+    width: 1336px;
+  }
+}

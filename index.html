@@ -4,27 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- modern-normalize -->
     <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
     <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Pop It</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header class="section">
-      <div class="wrapper">
-        <a class="home-logo" href="index.html">not_pipyrka.en</a>
+    <header class="section section_header">
+      <div class="wrapper wrapper_header">
+        <a class="home-logo link" href="index.html">not_pipyrka.en</a>
         <nav class="main-nav">
-          <ul class="main-nav__list">
+          <ul class="main-nav__list list">
             <li class="main-nav__item">
-              <a class="main-nav__link" href="#">about</a>
+              <a class="main-nav__link link" href="#">about</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="#">discounts</a>
+              <a class="main-nav__link link" href="#">discounts</a>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link" href="#">contact</a>
+              <a class="main-nav__link link" href="#">contact</a>
             </li>
           </ul>
         </nav>
@@ -33,22 +46,19 @@
     <!-- MAIN -->
     <main>
       <!-- hero -->
-      <section class="section">
+      <section class="section section_hero">
         <div class="wrapper wrapper_hero">
-          <h1>pop it!</h1>          
-          <p>The best anti-stress toy is an endless bubble wrap!</p>
-          <button>
-            Buy
-          </button>
+          <div class="hero">
+            <h1 class="hero__title">pop it!</h1>
+            <p class="hero__content">
+              The best anti-stress toy is an endless bubble wrap!
+            </p>
+            <button class="hero__button" >Buy</button>
+          </div>
         </div>
-
       </section>
-
     </main>
     <!-- FOOTER -->
-    <footer>
-      footer
-    </footer>
-   
+    <footer>footer</footer>
   </body>
 </html>

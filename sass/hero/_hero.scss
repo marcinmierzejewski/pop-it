@@ -1,0 +1,40 @@
+.hero {
+  text-align: left;
+  padding-left: 85px;
+  color: #ffffff;
+  width: 500px;
+
+  &__title {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;    
+    margin-bottom: 14px;
+  }
+
+  &__content {
+    font-size: 24px;
+    margin-bottom: 70px;
+    letter-spacing: 0.03em;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 254px;
+    height: 66px;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: $color-decoration;
+    transition: all $animation;
+    letter-spacing: 0.05;
+    &:hover{
+      background-color: #fd7f20;
+      color: #ffffff;
+    }
+  }
+}

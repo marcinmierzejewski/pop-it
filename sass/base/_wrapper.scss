@@ -33,7 +33,11 @@
     z-index: 1;
   }
 
-  &_what {
-    // background-color: blue;
+  &_rules {
+    padding-left: 85px;
+    background-image: url("../../images/bg-grid.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80px 50px;
   }
 }

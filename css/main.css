@@ -58,7 +58,7 @@ figure {
 .section_hero {
   padding: 0;
 }
-.section_what {
+.section_choose {
   background-color: #cbf4f0;
   display: block;
   margin: 0 auto;
@@ -95,6 +95,14 @@ figure {
   width: 100%;
   z-index: 1;
 }
+.wrapper_rules {
+  padding-left: 85px;
+  background-image: url("../../images/bg-grid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 80px 50px;
+}
+
 .home-logo {
   text-transform: uppercase;
   font-weight: 700;
@@ -160,8 +168,14 @@ figure {
   line-height: 24px;
 }
 
+.choose__list {
+  display: flex;
+  align-items: center;
+  gap: 185px;
+}
 .choose__title {
   margin-bottom: 36px;
+  font-size: 18px;
 }
 .choose__figure {
   text-align: center;
@@ -190,4 +204,25 @@ figure {
 .choose__button:hover {
   background-color: rgb(253, 127, 32);
   color: #ffffff;
+}
+
+.rules {
+  text-align: left;
+  display: flex;
+}
+.rules__left {
+  width: 660px;
+  padding-top: 90px;
+  margin-right: 90px;
+  line-height: 24px;
+}
+.rules__title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.rules__right {
+  width: 450px;
+}
+.rules__content {
+  padding-bottom: 140px;
 }/*# sourceMappingURL=main.css.map */

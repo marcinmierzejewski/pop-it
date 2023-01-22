@@ -79,7 +79,7 @@
       <section class="section section_choose">
         <div class="wrapper wrapper_choose">
           <div class="choose">
-            <h3 class="choose__title" >Choose your Pop-It!</h3>
+            <h3 class="choose__title">Choose your Pop-It!</h3>
             <ul class="choose__list list">
               <li class="choose__item">
                 <figure class="choose__figure">
@@ -88,7 +88,7 @@
                       srcset="./images/square.png"
                       media="(min-width: 320px)"
                     />
-                    <img src="./images/square.png" />
+                    <img src="./images/square.png" alt="Pop in square" />
                   </picture>
                   <figcaption>
                     <p class="choose__content">Multicolored square</p>
@@ -96,17 +96,64 @@
                   </figcaption>
                 </figure>
               </li>
-              <li>
-                <figure>
-                  <picture></picture>
+              <li class="choose__item">
+                <figure class="choose__figure">
+                  <picture class="choose__picture">
+                    <source
+                      srcset="./images/amongus.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/amongus.png" alt="Pop in amongus" />
+                  </picture>
+                  <figcaption>
+                    <p class="choose__content">Among Us, marble</p>
+                    <button class="choose__button">Buy</button>
+                  </figcaption>
                 </figure>
               </li>
-              <li>
-                <figure>
-                  <picture></picture>
+              <li class="choose__item">
+                <figure class="choose__figure">
+                  <picture class="choose__picture">
+                    <source
+                      srcset="./images/round.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/round.png" alt="Pop in round" />
+                  </picture>
+                  <figcaption>
+                    <p class="choose__content">Colorful round</p>
+                    <button class="choose__button">Buy</button>
+                  </figcaption>
                 </figure>
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- rules -->
+      <section class="section section_rules">
+        <div class="wrapper wrapper_rules">
+          <div class="rules">
+            <div class="rules__left">
+              <h3 class="rules__title">Rules of the game</h3>
+              <p class="rules__content">
+                Players take turns and click on the pimples. It is necessary to
+                finish the series that you started. You can press a maximum of 3
+                pimples at the same time (they must be nearby, you cannot press
+                several pimples at once if they are not back to back) The task
+                is to make the opponent go last. Whoever goes last loses!
+              </p>
+            </div>
+            <div class="rules__right">
+              <picture class="rules__picture">
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./images/photo.jpg 1x"
+                />
+                <img src="./images/photo.jpg" alt="pop in photo" />
+              </picture>
+            </div>
           </div>
         </div>
       </section>

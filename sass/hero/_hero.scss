@@ -8,7 +8,7 @@
     font-size: 100px;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 14px;
   }
 
@@ -33,7 +33,7 @@
     background-color: $color-decoration;
     transition: all $animation;
     letter-spacing: 0.05;
-    &:hover{
+    &:hover {
       background-color: #fd7f20;
       color: #ffffff;
     }

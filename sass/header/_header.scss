@@ -9,10 +9,10 @@
     display: flex;
     font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;
   }
 
-  &__item:not(:last-child)  {
+  &__item:not(:last-child) {
     margin-right: 70px;
   }
 }

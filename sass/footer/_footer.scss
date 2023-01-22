@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  &__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 55px;
+  }
+
+  &__link {
+    color: $color-decoration;
+    &:hover {
+      color: rgb(253, 127, 32);
+    }
+  }
+}

@@ -64,6 +64,14 @@ figure {
   margin: 0 auto;
   width: 1336px;
 }
+.section_footer {
+  background-color: rgb(51, 51, 51);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 1336px;
+}
 
 .wrapper {
   display: flex;
@@ -225,4 +233,20 @@ figure {
 }
 .rules__content {
   padding-bottom: 140px;
+}
+
+.footer {
+  width: 100%;
+}
+.footer__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 55px;
+}
+.footer__link {
+  color: #cbf4f0;
+}
+.footer__link:hover {
+  color: rgb(253, 127, 32);
 }/*# sourceMappingURL=main.css.map */

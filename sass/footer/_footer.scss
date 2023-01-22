@@ -8,6 +8,13 @@
     padding-right: 55px;
   }
 
+  &__item {
+    &:first-child {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
   &__link {
     color: $color-decoration;
     &:hover {

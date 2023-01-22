@@ -245,6 +245,10 @@ figure {
   padding-left: 55px;
   padding-right: 55px;
 }
+.footer__item:first-child {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .footer__link {
   color: #cbf4f0;
 }

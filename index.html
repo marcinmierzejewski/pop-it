@@ -53,7 +53,7 @@
             <p class="hero__content">
               The best anti-stress toy is an endless bubble wrap!
             </p>
-            <button class="hero__button">Buy</button>
+            <button class="hero__button" type="button" data-modal-open>Buy</button>
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@
                   </picture>
                   <figcaption>
                     <p class="choose__content">Multicolored square</p>
-                    <button class="choose__button">Buy</button>
+                    <button class="choose__button" type="button" data-modal-open>Buy</button>
                   </figcaption>
                 </figure>
               </li>
@@ -107,7 +107,7 @@
                   </picture>
                   <figcaption>
                     <p class="choose__content">Among Us, marble</p>
-                    <button class="choose__button">Buy</button>
+                    <button class="choose__button" type="button" data-modal-open>Buy</button>
                   </figcaption>
                 </figure>
               </li>
@@ -122,7 +122,7 @@
                   </picture>
                   <figcaption>
                     <p class="choose__content">Colorful round</p>
-                    <button class="choose__button">Buy</button>
+                    <button class="choose__button" type="button" data-modal-open>Buy</button>
                   </figcaption>
                 </figure>
               </li>
@@ -185,5 +185,65 @@
         </div>
       </div>
     </footer>
+
+    <!-- backdrop and modal -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg width="11" height="11">
+            <use href="images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="modal-form-container">          
+          <form action="javascript:void(0);" autocomplete="off" method="post">
+            <p class="modal-form-title">Product purchase</p>
+
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-form-items">
+              <input class="modal-input" type="text" name="username" id="user-name">
+              <div class="form-icon-div">
+                <svg class="form-icon" width="12" height="12">
+                  <use href="images/icons.svg#icon-name"></use>
+                </svg>
+              </div>
+            </div>
+
+            <label for="user-tel" class="modal-label">Phone</label>
+            <div class="modal-form-items">
+              <input class="modal-input" type="tel" name="usertel" id="user-tel">
+              <div class="form-icon-div">
+                <svg class="form-icon" width="13" height="13">
+                  <use href="images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+
+            <label for="user-email" class="modal-label">Delivery address</label>
+            <div class="modal-form-items">
+              <input class="modal-input" type="tel" name="useremail" id="user-email">
+              <div class="form-icon-div">
+                <svg class="form-icon" width="15" height="12">
+                  <use href="images/icons.svg#icon-mail"></use>
+                </svg>
+              </div>
+            </div>
+
+            <label for="user-message" class="modal-label">Comment</label>
+            <div class="modal-form-message">
+              <textarea class="modal-textarea" name="usermessage" id="user-message" placeholder="Message here..." cols="30" rows="10"></textarea>
+            </div>
+
+            <label class="check-label" for="id-checkbox">
+              <input class="custom-check hidden" type="checkbox" name="checkbox" id="id-checkbox">
+              <p class="check-content">Accept the <a href="#"> Terms</a> and <a href="#">Conditions</a>.</p>       
+            </label>
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+        </div>        
+      </div>
+    </div>
+
+    <!-- script javascript -->
+    <script src="js/modal.js"></script>
   </body>
 </html>
